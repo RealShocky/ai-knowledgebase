@@ -1,6 +1,6 @@
-# FAQRep - AI-Powered Support Knowledge Base
+# AI Knowledge Base
 
-An intelligent support knowledge base that uses AI to help users find answers to their questions quickly and accurately.
+An intelligent knowledge base system that uses AI to help users find answers to their questions quickly and accurately through semantic search and natural language understanding.
 
 ## Features
 
@@ -23,8 +23,8 @@ An intelligent support knowledge base that uses AI to help users find answers to
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/faqrep.git
-cd faqrep
+git clone https://github.com/RealShocky/ai-knowledgebase.git
+cd ai-knowledgebase
 ```
 
 2. Set up the backend:
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 3. Configure environment variables:
 Create a `.env` file in the backend directory with:
-```
+```bash
 CLAUDE_API_KEY=your_api_key_here
 ```
 
@@ -71,7 +71,7 @@ The application will be available at `http://localhost:3000`
 ## Project Structure
 
 ```
-faqrep/
+ai-knowledgebase/
 ├── backend/
 │   ├── articles/       # Markdown content
 │   ├── ai_engine.py    # Claude API integration
