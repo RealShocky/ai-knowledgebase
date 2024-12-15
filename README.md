@@ -1,6 +1,6 @@
-# FAQRep - AI-Powered VPN Support Knowledge Base
+# FAQRep - AI-Powered Support Knowledge Base
 
-An intelligent support knowledge base that uses AI to help users find answers to their VPN-related questions quickly and accurately.
+An intelligent support knowledge base that uses AI to help users find answers to their questions quickly and accurately.
 
 ## Features
 
