@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-container {
+  margin: 20px 0;
+}
+
+.search-input {
+  width: 70%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.search-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loading {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #666;
+}
+
+.error-message {
+  margin: 20px 0;
+  padding: 12px;
+  background-color: #ffebee;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+  border-radius: 4px;
+}
+
+.no-results {
+  margin: 20px 0;
+  padding: 12px;
+  background-color: #e3f2fd;
+  color: #1565c0;
+  border: 1px solid #90caf9;
+  border-radius: 4px;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.result-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.result-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.metadata {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.content {
+  color: #444;
+  line-height: 1.6;
+}
+
+.content h1, .content h2, .content h3 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.content ul, .content ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+.content p {
+  margin: 1em 0;
+}
+
+.relevance {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+}
